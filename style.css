@@ -23,10 +23,6 @@ main {
   background-color: #eee;
 }
 
-.step-box:last-child {
-  margin-right: 0;
-}
-
 .step-img1 {
   height: 150px;
   background-image: url(img/flow01.png);
@@ -69,8 +65,9 @@ footer {
 @media screen and (max-width: 768px) {
   main {
     display: block;
+    width: 100%;
   }
   .step-box {
-    margin: 10px auto;
+    width: 90%;
+    margin: 20px auto;
   }
-}
